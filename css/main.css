@@ -99,7 +99,7 @@ section.banner .wave:before {
 .sponsors {
   display: flex;
 }
-.sponsors img {
+.sponsors .img-box {
   padding: 0 6px;
   flex: 1;
 }
