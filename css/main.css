@@ -96,4 +96,12 @@ section.banner .wave:before {
   background: url("../assets/Rectangle 3 (1).png");
 }
 
+.sponsors {
+  display: flex;
+}
+.sponsors img {
+  padding: 0 6px;
+  flex: 1;
+}
+
 /*# sourceMappingURL=main.css.map */
