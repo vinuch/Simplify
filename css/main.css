@@ -1,14 +1,44 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 body {
-  overflow-x: hidden;
-}
+  overflow-x: hidden; }
 
 html {
-  font-size: 10px;
-}
+  font-size: 10px; }
 
 body {
-  font-family: "Roboto" Julius Sans One;
-}
+  font-family: "Roboto" Julius Sans One; }
 
-/*# sourceMappingURL=main.css.map */
+#minibar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4d6a88;
+  color: #fff;
+  padding: 0 2rem; }
+  #minibar .minibar_contact {
+    padding: 0; }
+  #minibar .minibar_number {
+    font-weight: bold; }
+  #minibar .minibar_nav-list {
+    display: flex; }
+    #minibar .minibar_nav-list .minibar_nav-minilink {
+      padding: 0 8px; }
+    #minibar .minibar_nav-list .minibar_nav-minilink a {
+      color: #fff; }
+
+.navbar {
+  padding: 0 2rem; }
+  .navbar .nav-item {
+    text-transform: uppercase;
+    font-weight: bold; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }

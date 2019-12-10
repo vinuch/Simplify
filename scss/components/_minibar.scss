@@ -1,0 +1,24 @@
+#minibar {
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-pricingheading;
+    color: #fff;
+    padding: 0 2rem;
+
+    .minibar_contact{
+        padding:  0;
+    }
+    .minibar_number{
+        font-weight: bold;
+    }
+    .minibar_nav-list{
+        display: flex;
+        
+        .minibar_nav-minilink {
+            padding: 0 8px;
+        }
+        .minibar_nav-minilink a{
+            color: #fff;
+        }
+    }
+}
