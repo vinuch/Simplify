@@ -8,6 +8,33 @@ html {
 body {
   font-family: "Roboto" Julius Sans One; }
 
+.btn-prim {
+  background-color: #009DE0;
+  border-radius: 5px;
+  border-style: none;
+  color: #fff !important;
+  padding: 10px 18px;
+  cursor: pointer;
+  font-size: 1.5rem; }
+
+.btn-clear {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #009DE0;
+  font-size: 1.5rem;
+  color: #fff !important;
+  padding: 10px 18px;
+  cursor: pointer; }
+
+.features_btn {
+  background-color: #335576;
+  border-radius: 5px;
+  border-style: none;
+  color: #fff !important;
+  padding: 10px 18px;
+  font-size: 1.5rem;
+  cursor: pointer; }
+
 #minibar {
   display: flex;
   justify-content: space-between;
@@ -29,16 +56,169 @@ body {
   padding: 0 2rem; }
   .navbar .nav-item {
     text-transform: uppercase;
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 1.3rem; }
+    .navbar .nav-item > button {
+      width: 110px; }
 
 * {
   box-sizing: border-box; }
 
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  overflow-x: none; }
 
 ul {
   list-style: none;
   margin: 0;
   padding: 0; }
+
+#header {
+  height: 80vh;
+  background: url("../assets/image of landing page.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 0 2rem; }
+  #header .wave:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 421px;
+    background: url("../assets/Rectangle 3 (1).png"); }
+  #header .header_content {
+    position: absolute;
+    top: 35%;
+    text-align: left;
+    width: 90%;
+    left: 9%;
+    color: #fff;
+    z-index: 3; }
+    #header .header_content h1 {
+      font-weight: bold;
+      font-size: 3rem;
+      text-align: left;
+      text-transform: uppercase; }
+      #header .header_content h1 .yellow-text {
+        color: #FEBE0A; }
+      #header .header_content h1 .blue-text {
+        color: #009DE0; }
+    #header .header_content .btn-box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around; }
+
+#brands {
+  background-color: #e5f5fb;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 2rem; }
+  #brands > div {
+    flex: 1; }
+
+#features {
+  padding: 2rem; }
+  #features .features_heading {
+    font-size: 3.7rem;
+    text-align: left;
+    font-weight: bold; }
+  #features .features_text {
+    font-size: 2rem;
+    text-align: left; }
+  #features .features_btn {
+    padding: 1rem 3rem; }
+
+#businesses {
+  margin: 2rem; }
+  #businesses .businesses_heading {
+    font-size: 3rem;
+    font-weight: bold; }
+  #businesses .contain {
+    flex-wrap: wrap; }
+  #businesses .shop-img {
+    padding: 10px;
+    background-color: #E5F5FC;
+    margin: 10px;
+    width: 27%; }
+
+#study {
+  background-color: #e5f5fb;
+  padding: 2rem; }
+  #study .study_heading {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3rem; }
+  #study .img-box {
+    width: 80%;
+    margin: 0 auto; }
+
+#benefit {
+  margin: 4rem 2rem; }
+  #benefit .row {
+    justify-content: space-around; }
+    #benefit .row .img-box {
+      position: relative; }
+    #benefit .row .overlay {
+      width: 100%;
+      height: 100%;
+      background-color: #c4eefead;
+      position: absolute; }
+    #benefit .row .benefit_heading {
+      font-size: 3rem;
+      font-weight: bold;
+      text-align: center; }
+    #benefit .row .benefit_text {
+      font-size: 1.5rem;
+      text-align: center; }
+
+#help .help_heading {
+  font-size: 3rem;
+  font-weight: bold; }
+
+#help .help_subheading {
+  font-size: 1.5rem;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto; }
+
+#help .help_btn {
+  font-size: 1.5rem; }
+
+#subscribe {
+  padding: 4rem 2rem;
+  background-color: #fecb3b; }
+  #subscribe ion-icon {
+    color: #009DE0; }
+  #subscribe input {
+    width: 24rem; }
+
+footer {
+  background-color: #002A54;
+  text-align: left;
+  padding: 2rem; }
+  footer h6 {
+    color: #009DE0;
+    font-size: 2rem;
+    margin-top: 2rem; }
+  footer li {
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 3px 0; }
+  footer .social-icons {
+    font-size: 3rem;
+    color: #949494; }
+
+@media only screen and (min-width: 500px) {
+  #header .header_content {
+    width: 60%;
+    left: 25%; }
+    #header .header_content h1 {
+      text-align: center; }
+  #businesses .shop-img {
+    width: 22%; }
+  form {
+    margin-left: 36%; } }

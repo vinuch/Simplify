@@ -1,8 +1,18 @@
 .navbar{
     padding: 0 2rem;
 
+    .navbar-nav{
+        
+    }
     .nav-item{
         text-transform: uppercase;
         font-weight: bold;
+        font-size: 1.3rem;
+        padding: 1.3rem;
+
+        > button{
+            // margin-left: 2rem;
+            width: 110px;
+        }
     }
 }
