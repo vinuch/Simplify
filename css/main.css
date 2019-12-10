@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+}
 
 html {
-  font-size: 10px; }
+  font-size: 10px;
+}
 
 body {
-  font-family: "Roboto" Julius Sans One; }
+  font-family: "Roboto" Julius Sans One;
+}
+
+/*# sourceMappingURL=main.css.map */
