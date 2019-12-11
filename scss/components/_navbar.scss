@@ -1,18 +1,31 @@
-.navbar{
-    padding: 0 2rem;
+.navbar {
+    padding: 1rem 2rem;
 
-    .navbar-nav{
-        
+    .navbar-brand {
+
+        .brand_img {
+            width: 11rem;
+        }
     }
-    .nav-item{
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: 1.3rem;
-        padding: 1.3rem;
 
-        > button{
-            // margin-left: 2rem;
-            width: 110px;
+    .navbar-nav {
+
+        .nav-item {
+            margin-left: 2rem;
+
+            .nav-link{
+                font-size: 1.3rem;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+
+            .nav_btn-link {
+                background-color: $color-primary;
+                color: $color-snowwhite;
+                font-weight: bold;
+                padding: .5rem 1.5rem;
+                border-radius: .5rem;
+            }
         }
     }
 }

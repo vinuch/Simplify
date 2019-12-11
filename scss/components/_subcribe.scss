@@ -1,0 +1,39 @@
+#subscribe {
+    padding: 4rem 2rem;
+    background-color: $color-yellowsun;
+
+    .subscribe_heading {
+    	font-size: 2.5rem;
+    }
+
+    .subscribe_caption {
+    	font-size: 1.3rem;
+    }
+
+    .subscribe_form {
+
+    	.input-group {
+    		width: 30vw;
+    		padding: 1rem 0;
+
+    		input {
+    			font-size: 1.2rem;
+    			height: 3.5rem;
+    		}
+
+    		button {
+    			background-color: $color-darkblue;
+    			color: $color-snowwhite;
+    			font-weight: bold;
+    			padding-left: 2rem;
+    			padding-right: 2rem;
+    		}
+    	}
+    }
+
+    ion-icon{
+        color: $color-primary;
+    }
+
+
+}

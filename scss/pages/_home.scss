@@ -1,0 +1,198 @@
+#home {
+
+    header {
+        padding: 0 2rem;
+
+        .banner {
+            width: 100%;
+            height: 80vh;
+            padding-top: 25vh;
+            background-image: url('../assets/header-img.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            .header_content {
+
+                .title {
+                    color: $color-snowwhite;
+                    font-size: 3rem;
+                    text-transform: uppercase;
+
+                    .title_yellow {
+                        color: $color-secondary;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#brands{
+    background-color: $color-skyblue;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+
+    > div {
+        flex: 1;
+    }
+}
+
+
+#features{
+    padding: 10rem 2rem;
+
+    .features_heading{
+        font-size: 3.7rem;
+        font-weight: bold;
+        margin-top: 5rem;
+    }
+
+    .features_text{
+        font-size: 2rem;
+    }
+
+    .features_img {
+        width: 80%;
+    }
+
+    .features_btn{
+        padding: 1rem 3rem;
+        
+    }
+}
+
+#businesses{
+    margin-bottom: 10rem;
+
+    .businesses_heading{
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
+
+    .content_box {
+        margin: 2rem 0;
+    }
+
+    .business_btn {
+        margin-top: 2rem;
+    }
+
+    .list_text {
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .business_img {
+        width: 7rem;
+        margin-bottom: 2rem;
+    }
+
+    .contain{
+        flex-wrap: wrap;
+    }
+    .shop-img{
+        padding: 10px;
+        background-color: #E5F5FC;
+        margin: 10px;
+        width: 27% ;
+    }
+}
+
+#study{
+    background-color: $color-skyblue;
+    padding: 5rem;
+
+    .study_heading{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 3rem;
+    }
+
+    .slides {
+        margin: 4rem 0;
+    }
+
+    .img-box{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .comment_vid {
+        height: 30rem;
+        background-color: rgba(0,0,0,.8);
+        border-radius: 3rem;
+        position: relative;
+
+        ion-icon {
+            font-size: 8rem;
+            color: #fff;
+            position: absolute;
+            top: 40%;
+            left: 40%;
+        }
+    }
+
+    .comment_text {
+        font-size: 1.5rem;
+        margin-top: 20%;
+    }
+
+    .comment_name {
+        font-size: 1.2rem;
+        margin-left: 1rem;
+        font-weight: bold;
+    }
+}
+
+#benefit{
+    margin: 4rem 2rem;
+
+    .benefit_row {
+        margin: 5rem 0;
+    }
+
+    img {
+        border-radius: 3rem;
+        box-shadow: 1rem 1rem 5rem grey;
+    }
+
+    .row {
+        justify-content: space-around;
+
+        .benefit_heading{
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .benefit_text{
+            font-size: 1.5rem;
+        }
+    }
+    
+}
+
+#help{
+    padding-top: 10rem;
+
+    .help_content {
+        margin-bottom: 4rem;
+    }
+
+    .help_heading{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    
+    .help_subheading{
+        font-size: 1.5rem;
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .help_btn{
+        font-size: 1.5rem;
+    }
+}

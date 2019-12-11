@@ -16,14 +16,14 @@
 
     <title>Simplify</title>
   </head>
-  <body>
+  <body id="home">
 
     <div id="minibar" class="container-fulid">
       <div class="minibar_contact">
         <p class="minibar_contact-text">Talk to a retailer specialist <span class="minibar_number">+234-701-476-7756</span></p>
       </div>
       <div class="minibar_nav">
-        <ul class="minibar_nav-list">
+        <ul class="minibar_nav-list list-unstyled">
           <li class="minibar_nav-minilink"><a href="#">Sign in </a></li>
           <li class="minibar_nav-minilink"><a href="#">Help </a></li>
           <li class="minibar_nav-minilink"><a href="#">Blog</a></li>
@@ -32,43 +32,60 @@
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#"><img src="assets/Simplify logo.png" alt="Simpllify logo"></a>
+      <a class="navbar-brand" href="#"><img class="brand_img" src="assets/Simplify-logo.png" alt="Simpllify logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">features <i class="fa fa-angle-down"></i></a>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">features</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
+              <a class="dropdown-item" href="#">....</a>
+              <a class="dropdown-item" href="#">....</a>
+              <a class="dropdown-item" href="#">....</a>
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">pricing <i class="fa fa-angle-down"></i></a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">pricing</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
+              <a class="dropdown-item" href="#">....</a>
+              <a class="dropdown-item" href="#">....</a>
+              <a class="dropdown-item" href="#">....</a>
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">businesses <i class="fa fa-angle-down"></i></a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">businesses</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink3">
+              <a class="dropdown-item" href="#">....</a>
+              <a class="dropdown-item" href="#">....</a>
+              <a class="dropdown-item" href="#">....</a>
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">demo <i class="fa fa-angle-down"></i></a>
+          <li class="nav-item ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">demo</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink4">
+              <a class="dropdown-item" href="#">....</a>
+              <a class="dropdown-item" href="#">....</a>
+              <a class="dropdown-item" href="#">....</a>
+            </div>
           </li>
           <li class="nav-item nav_btn">
-            <button class="nav-link nav_btn-link btn-prim">FREE TRIAL</button>
-            
+            <a class="nav-link nav_btn-link">free trial</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <header id="home">  
-      <div id="header" class="container-fulid text-center">
-        <div class="wave"></div>
+    <header>  
+      <div class="container-fulid text-center banner">
         <div class="header_content">
-          <h1 class="title">stay on top of <br><span class="yellow-text">your business from</span><br> anywhere in the world-even <br><span class="blue-text">while on vacation</span></h1>
+          <h1 class="title">stay on top of <br><span class="title_yellow">your business from</span><br> anywhere in the world-even <br><span class="blue-text">while on vacation</span></h1>
           <div class="btn-box">
-            <button class="btn btn-default btn_solid btn-prim"  role="button">TRY SIMPLIFY FOR FREE</button>
-            <button class="btn btn-default btn_outlined btn-clear" role="button">TALK TO US</button>
+            <a class="btn btn-default btn_solid"  role="button">TRY SIMPLIFY FOR FREE</a>
+            <a class="btn btn-default btn_outlined" role="button">TALK TO US</a>
           </div>
-          
         </div>
       </div>
     </header>
@@ -90,11 +107,11 @@
             <p class="features_text">Built for the smart micro, small and medium business owners - It's your business on wings. Get the power of a full enterprise system at a fraction of the cost. </p>
             <p class="features_text">Stay on top of your business from anywhere in the world, on any device. Get Started today. No setup fee required. 30 days free trial.</p>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-7">
-            <img src="assets/mockuphome 1.png" alt="" width="100%" height="100%">
+          <div class="col-sm-12 col-md-6 col-lg-7 text-center">
+            <img class="features_img" src="assets/mockuphome 1.png" alt="" width="100%" height="100%">
           </div>
           <div class="col-12 text-center mt-5">
-            <a class="btn btn-default btn_solid features_btn" href="pages/features.html" role="button">SEE ALL FEATURES</a>
+            <a class="btn btn-default btn_solid-dark " href="pages/features.html" role="button">see all features</a>
           </div>
         </div>
       </div>
@@ -104,45 +121,42 @@
       <div class="container-fulid text-center">
         <div class="row">
           <div class="col-12">
-            <h3 class="businesses_heading">Perfect for retail stores just like yours</h3>
+            <h3 class="businesses_heading">Pede a non hymenaeos ante ac aptent</h3>
           </div>
-          <div class="contain col-12 d-flex">
-            <div class=" shop-img">
-                <img src="assets/restaurant-icon-circle-4.png" alt="" width="100%">
-              <p>curabitur eleifend</p>
-            </div>
-            <div class=" shop-img">
-                <img src="assets/Boutique.png" alt="" width="100%">
-              <p>curabitur eleifend</p>
-            </div>
-            <div class=" shop-img">
-                <img src="assets/tailor equipment.png" alt="" width="100%">
-              <p>curabitur eleifend</p>
-            </div>
-            <div class=" shop-img">
-              <img src="assets/salon 1.png" alt="" width="100%">
-              <p>curabitur eleifend</p>
-            </div>
-            <div class=" shop-img">
-              <img src="assets/laundry store 1.png" alt="" width="100%">
-              <p>curabitur eleifend</p>
-            </div>
-            <div class=" shop-img">
-              <img src="assets/Spa 1.png" alt="" width="100%">
-              <p>curabitur eleifend</p>
-            </div>
-            <div class=" shop-img">
-              <img src="assets/pharmacy 1.png" alt="" width="100%">
-              <p>curabitur eleifend</p>
-            </div>
-            <div class=" shop-img">
-              <img src="assets/Supermarket 1.png" alt="" width="100%">
-              <p>curabitur eleifend</p>
-            </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 content_box">
+            <img class="business_img" src="assets/dish.png">
+            <p class="list_text">curabitur eleifend</p>
           </div>
-          
-          <div class="col-12 mt-5">
-            <a class="btn btn-default btn_solid features_btn"  >SEE MORE BUSINESS TYPES</a>
+          <div class="col-sm-12 col-md-6 col-lg-3 content_box">
+            <img class="business_img" src="assets/scissors.png">
+            <p class="list_text">curabitur eleifend</p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 content_box">
+            <img class="business_img" src="assets/pills.png">
+            <p class="list_text">curabitur eleifend</p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 content_box">
+            <img class="business_img" src="assets/medicine.png">
+            <p class="list_text">curabitur eleifend</p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 content_box">
+            <img class="business_img" src="assets/hairdryer.png">
+            <p class="list_text">curabitur eleifend</p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 content_box">
+            <img class="business_img" src="assets/washing-machine.png">
+            <p class="list_text">curabitur eleifend</p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 content_box">
+            <img class="business_img" src="assets/spa.png">
+            <p class="list_text">curabitur eleifend</p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 content_box">
+            <img class="business_img" src="assets/shopping.png">
+            <p class="list_text">curabitur eleifend</p>
+          </div>
+          <div class="col-12 business_btn">
+            <a class="btn btn-default btn_solid-dark" href="#" role="button">SEE MORE BUSINESS TYPES</a>
           </div>
           
         </div>
@@ -150,20 +164,72 @@
     </section>
 
     <section id="study">
-      <div class="container-fulid text-center">
+      <div class="container-fulid">
         <div class="row">
           <div class="col-12 text-center">
             <h3 class="study_heading">Customer case study</h3>
           </div>
-          <div class="col-lg-12">
-            <div class='img-box'>
-              <img src="assets/1st building 2.png" alt="building" width="100%">
+          <div class="col-lg-12 slides">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="" class="d-block" alt="" width="100%">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-2"></div>
+                      <div class="col-lg-4 comment_vid"><ion-icon name="play-circle"></ion-icon></div>
+                      <div class="col-lg-4">
+                        <p class="comment_text">Lorem ipsum dolor sit amet, ipsum pulvinar suscipit, etiam interdum mattis eget nulla, duis ultricies consectetuer tellus justo, vel odio volutpat nec sodales luctus torquent. Sit vitae dolor.</p>
+                        <img class="rounded-circle" src="assets/comment-img1.jpg" width="40px">
+                        <span class="comment_name">Euismod Hendrerit Vitae</span>
+                      </div>
+                      <div class="col-lg-2"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="" class="d-block" alt="" width="100%">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-2"></div>
+                      <div class="col-lg-4 comment_vid"><ion-icon name="play-circle"></ion-icon></div>
+                      <div class="col-lg-4">
+                        <p class="comment_text">Lorem ipsum dolor sit amet, ipsum pulvinar suscipit, etiam interdum mattis eget nulla, duis ultricies consectetuer tellus justo, vel odio volutpat nec sodales luctus torquent. Sit vitae dolor.</p>
+                        <img class="rounded-circle" src="assets/comment-img2.jpg" width="40px">
+                        <span class="comment_name">Euismod Hendrerit Vitae</span>
+                      </div>
+                      <div class="col-lg-2"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="" class="d-block" alt="" width="100%">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-2"></div>
+                      <div class="col-lg-4 comment_vid"><ion-icon name="play-circle"></ion-icon></div>
+                      <div class="col-lg-4">
+                        <p class="comment_text">Lorem ipsum dolor sit amet, ipsum pulvinar suscipit, etiam interdum mattis eget nulla, duis ultricies consectetuer tellus justo, vel odio volutpat nec sodales luctus torquent. Sit vitae dolor.</p>
+                        <img class="rounded-circle" src="assets/comment-img1.jpg" width="40px">
+                        <span class="comment_name">Euismod Hendrerit Vitae</span>
+                      </div>
+                      <div class="col-lg-2"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
-            
-            
           </div>
-          <div class="col-lg-12">
-              <a class="btn btn-default btn_solid features_btn mt-5"  >SEE MORE BUSINESS TYPES</a>
+          <div class="col-lg-12 text-center">
+              <a class="btn btn-default btn_solid-dark mt-5"  >SEE MORE BUSINESS TYPES</a>
           </div>
         </div>
       </div>
@@ -172,44 +238,34 @@
     <section id="benefit">
       <div class="container-fulid">
         <div class="row">
-          <div class="col-sm-12 col-md-5 col-lg-5">
-            <div class="img-box">
-              <div class="overlay"></div>
-              <img src="assets/1ST Dash board.png" alt="" width="80%">
-            </div>
+          <div class="col-sm-12 col-md-5 col-lg-5 img-box text-center benefit_row">
+            <img src="assets/01.png" alt="" width="80%">
           </div>
-          <div class="col-sm-12 col-md-5 col-lg-5">
+          <div class="col-sm-12 col-md-5 col-lg-5 benefit_row">
             <h3 class="benefit_heading">Powerful Insights</h3>
             <p class="benefit_text"> Remove the guess work from your business and start making informed data driven decisions today with real time actionable insights on your business performance.</p>
           </div>
-          <div class="col-sm-12 col-md-5 col-lg-5">
+          <div class="col-sm-12 col-md-5 col-lg-5 benefit_row">
             <h3 class="benefit_heading">Retail's best integrated payments</h3>
             <p class="benefit_text"> Some point of sale systems lock you into their payment provider. This may not best suit your needs or get you the best rate. Vend allows you to select the sharpest deal from our best in breed partners, or connect our POS to your bank.</p>
           </div>
-          <div class="col-sm-12 col-md-5 col-lg-5">
-              <div>
-                  <img src="assets/POS NEW 1.png" alt="" width="90%" style="background-color: rgba(254, 190, 10, 0.5);;">
-                </div>
+          <div class="col-sm-12 col-md-5 col-lg-5 img-box text-center benefit_row">
+            <img src="assets/02.png" alt="" width="90%">
           </div>
-          <div class="col-sm-12 col-md-5 col-lg-5">
-              <div class="img-box">
-                  <div class="overlay"></div>
-                  <img src="assets/2nd Dah board.png" alt="" width="80%">
-                </div>
+          <div class="col-sm-12 col-md-5 col-lg-5 img-box text-center benefit_row">
+            <img src="assets/03.jpg" alt="" width="80%">
           </div>
-          <div class="col-sm-12 col-md-5 col-lg-5">
+          <div class="col-sm-12 col-md-5 col-lg-5 benefit_row">
             <h3 class="benefit_heading">Unlimited Growth</h3>
             <p class="benefit_text">A custom built SME Technology platform catering to various specialized kinds of business with inte grated invoicing,inventory management,acounting, and payment.</p>
           </div>
-          <div class="col-sm-12 col-md-5 col-lg-5">
+          <div class="col-sm-12 col-md-5 col-lg-5 benefit_row">
             <h3 class="benefit_heading"> Custom Built </h3>
             <p class="benefit_text"> Unlike other systems, Symplifi is not a one-size fits all. Your Symplifi is custom built to work the way your business works! Unlike other systems, Symplifi is not a one-size fits all. Your Symplifi is custom built to work the way your business works</p>
           </div>
-          <div class="col-sm-12 col-md-5 col-lg-5">
+          <div class="col-sm-12 col-md-5 col-lg-5 img-box text-center benefit_row">
               <div class="img-box">
-                  <div class="overlay"></div>
-                  <img src="assets/5th Dashboard 1.png" alt="" width="80%">
-                </div>
+            <img src="assets/04.jpg" alt="" width="80%">
           </div>
         </div>
       </div>
@@ -218,10 +274,10 @@
     <section id="help">
       <div class="container-fulid text-center">
         <div class="row">
-          <div class="col-12">
+          <div class="col-12 help_content">
             <h3 class="help_heading">Get the help you need when you need it</h3>
             <p class="help_subheading"> Our highly trained support team is available via phone or email.Or you can visit the Support Center 24/7 to find useful tips, articles, and thorough video walkthroughs. </p>
-            <a class="btn btn-default btn_solid help_btn " href="#" role="button">Learn more...</a>
+            <a class="btn btn-default help_btn " href="#" role="button">Learn more...</a>
           </div>
           <div class="col-12">
             <img class="help_img" src="assets/Boutique shop3 1.png" alt="boutique" width="70%">
@@ -234,14 +290,14 @@
       <div class="container-fulid text-center">
         <div class="row">
           <div class="col-12">
-            <h3 class="subscribe_heading">Start Using Simplify Now <span class="subscribe_icon"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></span></h3>
+            <h3 class="subscribe_heading">Start Using Simplify Now <span class="subcribe_icon"><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon></span></h3>
           </div>
           <div class="col-12">
-            <form>
-              <div class="input-group">
-                <input type="text"  class="form-conrol" placeholder="Enter your email" aria-label="Email" aria-describedby="button-email">
+            <form class="subscribe_form">
+              <div class="input-group mx-auto">
+                <input type="text" class="form-control" placeholder="Enter your email" aria-label="Email" aria-describedby="button-email">
                 <div class="input-group-append">
-                  <a class="btn btn-default features_btn" type="button" id="button-email">FREE TRIAL</a>
+                  <button class="btn btn-default" type="button" id="button-email">FREE TRIAL</button>
                 </div>
               </div>
             </form>
@@ -259,7 +315,7 @@
         <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-3">
             <h6 class="footer_heading">Specialized Businesses</h6>
-            <ul class="footer_list">
+            <ul class="footer_list list-unstyled">
               <li class="footer_list-detials">General Retail shop</li>
               <li class="footer_list-detials">Boutique and Fashion Retailers</li>
               <li class="footer_list-detials">Supermarkets</li>
@@ -279,7 +335,7 @@
           </div>
           <div class="col-sm-12 col-md-6 col-lg-3">
             <h6 class="footer_heading">Features</h6>
-            <ul class="footer_list">
+            <ul class="footer_list list-unstyled">
               <li class="footer_list-detials">General Retail shop</li>
               <li class="footer_list-detials">Boutique and Fashion Retailers</li>
               <li class="footer_list-detials">Supermarkets</li>
@@ -299,16 +355,16 @@
           </div>
           <div class="col-sm-12 col-md-6 col-lg-3">
             <h6 class="footer_heading">Developers</h6>
-            <ul class="footer_list">
+            <ul class="footer_list list-unstyled">
               <li class="footer_list-detials">General Retail shop</li>
             </ul>
             <h6 class="footer_heading">Resources</h6>
-            <ul class="footer_list">
+            <ul class="footer_list list-unstyled">
               <li class="footer_list-detials">General Retail shop</li>
               <li class="footer_list-detials">Boutique and Fashion Retailers</li>
             </ul>
             <h6 class="footer_heading">Company</h6>
-            <ul class="footer_list">
+            <ul class="footer_list list-unstyled">
               <li class="footer_list-detials">General Retail shop</li>
               <li class="footer_list-detials">Boutique and Fashion Retailers</li>
               <li class="footer_list-detials">Supermarkets</li>
@@ -316,15 +372,16 @@
           </div>
           <div class="col-sm-12 col-md-6 col-lg-3">
             <h6 class="footer_heading">Value Added Services</h6>
-            <ul class="footer_list">
+            <ul class="footer_list list-unstyled">
               <li class="footer_list-detials">General Retail shop</li>
               <li class="footer_list-detials">Boutique and Fashion Retailers</li>
               <li class="footer_list-detials">Supermarkets</li>
             </ul>
-            <h3>Simplify</h3>
-            <span><ion-icon name="logo-facebook"></ion-icon> <ion-icon name="logo-instagram"></ion-icon> <ion-icon name="logo-twitter"></ion-icon> <ion-icon name="logo-linkedin"></ion-icon></span>
-            <img src="assets/Simplify logo.png" alt="">
-            <div class="social-icons"><ion-icon name="logo-facebook"></ion-icon> <ion-icon name="logo-instagram"></ion-icon> <ion-icon name="logo-twitter"></ion-icon> <ion-icon name="logo-linkedin"></ion-icon></div>
+            
+            <div class="social-icons">
+              <h3 class="company_logo">Simplify</h3>
+              <ion-icon name="logo-facebook"></ion-icon> <ion-icon name="logo-instagram"></ion-icon> <ion-icon name="logo-twitter"></ion-icon> <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
           </div>
 
         </div>

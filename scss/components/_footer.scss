@@ -1,0 +1,26 @@
+footer{
+    background-color: $color-darkblue;
+    text-align: left;
+    padding: 5rem 2rem;
+
+    .footer_heading {
+        color: $color-primary;
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    .footer_list-detials {
+        color: #fff;
+        font-size: 1.3rem;
+        padding: 3px 0;
+    }
+
+    .company_logo {
+        color: $color-snowwhite;
+        font-size: 3rem;
+    }
+
+    .social-icons{
+        font-size: 2rem;
+        color: $color-snowwhite;
+    }
+}

@@ -1,24 +1,33 @@
 #minibar {
+    background-color: $color-darkblue;
+    padding: 0.5rem 2rem;
     display: flex;
     justify-content: space-between;
-    background-color: $color-pricingheading;
-    color: #fff;
-    padding: 0 2rem;
 
-    .minibar_contact{
-        padding:  0;
-    }
-    .minibar_number{
-        font-weight: bold;
-    }
-    .minibar_nav-list{
-        display: flex;
-        
-        .minibar_nav-minilink {
-            padding: 0 8px;
+    .minibar_contact-text {
+        color: #dbd7d2;
+        font-size: 1.3rem;
+
+        .minibar_number {
+            color: $color-snowwhite;
+            font-weight: bold;
         }
-        .minibar_nav-minilink a{
-            color: #fff;
+    }
+
+    .minibar_nav {
+
+        .minibar_nav-list {
+
+            .minibar_nav-minilink {
+                display: inline;
+                margin-left: 2rem;
+
+                a {
+                    color: $color-snowwhite;
+                    font-size: 1.3rem;
+                }
+            }
         }
     }
 }
+
