@@ -165,7 +165,7 @@ footer {
   background-color: #e5f5fb;
   display: flex;
   flex-wrap: wrap;
-  padding: 0 2rem; }
+  padding: 0; }
   #brands > div {
     flex: 1; }
 
