@@ -4,10 +4,26 @@
 @media only screen and (min-width: 500px) {
     
 
-    #businesses .shop-img{
-        width: 22%;
+    #businesses .content_box{
+        max-width: 22%;
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+        filter: invert(100%);
     }
 
+    #subscribe  .subscribe_form .input-group {
+        width: 50vw;
+
+    }
+
+    footer{
+        text-align: left;
+
+        .company_logo{
+            margin: 0 ;
+        }
+    }
 }
 
 

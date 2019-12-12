@@ -1,6 +1,6 @@
 footer{
     background-color: $color-darkblue;
-    text-align: left;
+    text-align: center;
     padding: 5rem 2rem;
 
     .footer_heading {
@@ -17,6 +17,7 @@ footer{
     .company_logo {
         color: $color-snowwhite;
         font-size: 3rem;
+        margin: 0 auto;
     }
 
     .social-icons{

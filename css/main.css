@@ -8,9 +8,8 @@ html {
 body {
   font-family: "Roboto" Julius Sans One; }
 
-@media only screen and (min-width: 500px) {
-  #businesses .shop-img {
-    width: 22%; } }
+p {
+  color: #4d4d4d; }
 
 .btn_solid {
   background-color: #009DE0;
@@ -49,7 +48,7 @@ body {
 
 footer {
   background-color: #002A54;
-  text-align: left;
+  text-align: center;
   padding: 5rem 2rem; }
   footer .footer_heading {
     color: #009DE0;
@@ -61,7 +60,8 @@ footer {
     padding: 3px 0; }
   footer .company_logo {
     color: #fff;
-    font-size: 3rem; }
+    font-size: 3rem;
+    margin: 0 auto; }
   footer .social-icons {
     font-size: 2rem;
     color: #fff; }
@@ -70,11 +70,11 @@ footer {
   padding: 4rem 2rem;
   background-color: #fecb3b; }
   #subscribe .subscribe_heading {
-    font-size: 2.5rem; }
+    font-size: 2rem; }
   #subscribe .subscribe_caption {
     font-size: 1.3rem; }
   #subscribe .subscribe_form .input-group {
-    width: 30vw;
+    width: 90vw;
     padding: 1rem 0; }
     #subscribe .subscribe_form .input-group input {
       font-size: 1.2rem;
@@ -91,11 +91,7 @@ footer {
 #minibar {
   background-color: #002A54;
   padding: 0.5rem 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between; }
   #minibar .minibar_contact-text {
     color: #dbd7d2;
@@ -127,6 +123,10 @@ footer {
       padding: .5rem 1.5rem;
       border-radius: .5rem; }
 
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(0%); }
+
 #home header {
   padding: 0 2rem; }
   #home header .banner {
@@ -136,25 +136,35 @@ footer {
     background-image: url("../assets/header-img.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; }
-    #home header .banner .header_content .title {
-      color: #fff;
-      font-size: 3rem;
-      text-transform: uppercase; }
-      #home header .banner .header_content .title .title_yellow {
-        color: #FEBE0A; }
+    background-size: cover;
+    position: relative;
+    overflow: hidden; }
+    #home header .banner .header_content {
+      z-index: 2;
+      position: relative; }
+      #home header .banner .header_content .title {
+        color: #fff;
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-weight: bold; }
+        #home header .banner .header_content .title .title_yellow {
+          color: #FEBE0A; }
+    #home header .banner .wave::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: -105px;
+      width: 120%;
+      height: 400px;
+      background: url("../assets/Rectangle 3 (1).png");
+      z-index: 1; }
 
 #brands {
   background-color: #e5f5fb;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0 2rem; }
   #brands > div {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
     flex: 1; }
 
 #features {
@@ -171,23 +181,29 @@ footer {
     padding: 1rem 3rem; }
 
 #businesses {
-  margin-bottom: 10rem; }
+  margin: 10rem 2rem; }
+  #businesses .businesses_overview {
+    padding: 0 5rem; }
   #businesses .businesses_heading {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 2rem; }
   #businesses .content_box {
-    margin: 2rem 0; }
+    margin: 2rem 2rem;
+    max-width: 100%;
+    background-color: #e5f5fb;
+    padding: 3rem; }
+  #businesses .content_box:hover {
+    box-shadow: 1rem 1rem 5rem grey; }
   #businesses .business_btn {
     margin-top: 2rem; }
   #businesses .list_text {
     font-size: 1.4rem;
     font-weight: bold; }
   #businesses .business_img {
-    width: 7rem;
+    width: 70%;
     margin-bottom: 2rem; }
   #businesses .contain {
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
   #businesses .shop-img {
     padding: 10px;
@@ -231,19 +247,18 @@ footer {
   #benefit .benefit_row {
     margin: 5rem 0; }
   #benefit img {
-    border-radius: 3rem;
-    -webkit-box-shadow: 1rem 1rem 5rem grey;
     box-shadow: 1rem 1rem 5rem grey; }
   #benefit .row {
-    -ms-flex-pack: distribute;
     justify-content: space-around; }
     #benefit .row .benefit_heading {
       font-size: 3rem;
-      font-weight: bold; }
+      font-weight: bold;
+      padding-bottom: 3rem; }
     #benefit .row .benefit_text {
       font-size: 1.5rem; }
 
 #help {
+  margin: 0 2rem;
   padding-top: 10rem; }
   #help .help_content {
     margin-bottom: 4rem; }
@@ -252,8 +267,21 @@ footer {
     font-weight: bold; }
   #help .help_subheading {
     font-size: 1.5rem;
-    width: 60%;
+    width: 100%;
     text-align: center;
     margin: 0 auto; }
   #help .help_btn {
     font-size: 1.5rem; }
+
+@media only screen and (min-width: 500px) {
+  #businesses .content_box {
+    max-width: 22%; }
+  .carousel-control-next,
+  .carousel-control-prev {
+    filter: invert(100%); }
+  #subscribe .subscribe_form .input-group {
+    width: 50vw; }
+  footer {
+    text-align: left; }
+    footer .company_logo {
+      margin: 0; } }

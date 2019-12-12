@@ -1,3 +1,7 @@
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(0%);
+}
 #home {
 
     header {
@@ -11,20 +15,39 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
+            position: relative;
+            overflow: hidden;
 
             .header_content {
-
+                z-index: 2;
+                position: relative;
+                ;
                 .title {
                     color: $color-snowwhite;
                     font-size: 3rem;
                     text-transform: uppercase;
+                    font-weight: bold;
 
                     .title_yellow {
                         color: $color-secondary;
                     }
                 }
             }
+            
+            .wave::after{
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: -105px;
+                width: 120%;
+                height: 400px;
+                background: url("../assets/Rectangle 3 (1).png"); 
+                z-index: 1;
+            }
+
+         
         }
+
     }
 }
 
@@ -64,8 +87,12 @@
 }
 
 #businesses{
-    margin-bottom: 10rem;
+    margin: 10rem 2rem;
 
+
+    .businesses_overview{
+        padding: 0 5rem;
+    }
     .businesses_heading{
         font-size: 3rem;
         font-weight: bold;
@@ -73,7 +100,13 @@
     }
 
     .content_box {
-        margin: 2rem 0;
+        margin: 2rem 2rem;
+        max-width: 100%;
+        background-color: $color-skyblue;
+        padding: 3rem;
+    }
+    .content_box:hover{
+        box-shadow: 1rem 1rem 5rem grey;
     }
 
     .business_btn {
@@ -86,7 +119,7 @@
     }
 
     .business_img {
-        width: 7rem;
+        width: 70%;
         margin-bottom: 2rem;
     }
 
@@ -155,7 +188,7 @@
     }
 
     img {
-        border-radius: 3rem;
+        
         box-shadow: 1rem 1rem 5rem grey;
     }
 
@@ -165,6 +198,7 @@
         .benefit_heading{
             font-size: 3rem;
             font-weight: bold;
+            padding-bottom: 3rem;
         }
         .benefit_text{
             font-size: 1.5rem;
@@ -174,6 +208,7 @@
 }
 
 #help{
+    margin: 0 2rem;
     padding-top: 10rem;
 
     .help_content {
@@ -187,7 +222,7 @@
     
     .help_subheading{
         font-size: 1.5rem;
-        width: 60%;
+        width: 100%;
         text-align: center;
         margin: 0 auto;
     }
