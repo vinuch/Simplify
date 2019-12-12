@@ -95,13 +95,13 @@ footer {
   justify-content: space-between; }
   #minibar .minibar_contact-text {
     color: #dbd7d2;
-    font-size: 1.3rem; }
+    font-size: 1rem; }
     #minibar .minibar_contact-text .minibar_number {
       color: #fff;
       font-weight: bold; }
   #minibar .minibar_nav .minibar_nav-list .minibar_nav-minilink {
     display: inline;
-    margin-left: 2rem; }
+    margin-left: 1rem; }
     #minibar .minibar_nav .minibar_nav-list .minibar_nav-minilink a {
       color: #fff;
       font-size: 1.3rem; }
@@ -150,7 +150,7 @@ footer {
         #home header .banner .header_content .title .title_yellow {
           color: #FEBE0A; }
       #home header .banner .header_content .btn-box a {
-        width: 90%; }
+        width: 60%; }
     #home header .banner .wave::after {
       content: '';
       position: absolute;
@@ -164,8 +164,12 @@ footer {
 #brands {
   background-color: #e5f5fb;
   display: flex;
-  flex-wrap: wrap;
-  padding: 0; }
+  /* flex-wrap: wrap; */
+  padding: 0;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory; }
   #brands > div {
     flex: 1; }
 

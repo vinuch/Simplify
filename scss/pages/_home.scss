@@ -33,7 +33,7 @@
                     }
                 }
                 .btn-box a{
-                    width: 90%;
+                    width: 60%;
                 }
             }
             
@@ -55,10 +55,15 @@
 }
 
 #brands{
-    background-color: $color-skyblue;
+
+    background-color: #e5f5fb;
     display: flex;
-    flex-wrap: wrap;
-    padding: 0 ;
+    /* flex-wrap: wrap; */
+    padding: 0;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
 
     > div {
         flex: 1;
