@@ -1,6 +1,6 @@
 #minibar {
     background-color: $color-darkblue;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1rem;
     display: flex;
     justify-content: space-between;
 
@@ -20,7 +20,7 @@
 
             .minibar_nav-minilink {
                 display: inline;
-                margin-left: 1rem;
+                margin-left: .5rem;
 
                 a {
                     color: $color-snowwhite;

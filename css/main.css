@@ -90,7 +90,7 @@ footer {
 
 #minibar {
   background-color: #002A54;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
   display: flex;
   justify-content: space-between; }
   #minibar .minibar_contact-text {
@@ -101,7 +101,7 @@ footer {
       font-weight: bold; }
   #minibar .minibar_nav .minibar_nav-list .minibar_nav-minilink {
     display: inline;
-    margin-left: 1rem; }
+    margin-left: .5rem; }
     #minibar .minibar_nav .minibar_nav-list .minibar_nav-minilink a {
       color: #fff;
       font-size: 1.3rem; }
