@@ -4,16 +4,22 @@
 @media only screen and (min-width: 500px) {
     
 
+    .navbar{
+        a.free-trial{
+            display: none;
+        }
+    }
      header {
          padding: 0 2rem;
-
         .banner .header_content .btn-box a{
             width: auto !important;
         }
      }
-    #businesses .content_box{
-        max-width: 22%;
+
+    #home #businesses .content_box, #businesses-page #businesses .content_box{
+        max-width: 23%;
     }
+
     .carousel-control-next,
     .carousel-control-prev {
         filter: invert(100%);
@@ -23,6 +29,13 @@
         width: 50vw;
 
     }
+    .banner img.desktop{
+        width: 40rem ;
+    }
+
+    #sidebar{
+        display: block;
+    }
 
     footer{
         text-align: left;
@@ -30,6 +43,16 @@
         .company_logo{
             margin: 0 ;
         }
+    }
+
+    /*features page*/
+    .banner >div .banner-text {
+        display: inline-flex;
+    }
+
+    .contact{
+        margin: 2rem 0;
+
     }
 }
 

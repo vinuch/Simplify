@@ -1,0 +1,80 @@
+#businesses-page {
+    #businesses{
+        margin: 10rem 1rem;
+        background-color: #fbf9f9;
+         padding: 0 1rem 4rem;
+    
+    
+         > .row {
+             margin: 0;
+         }
+        .businesses_overview{
+            padding: 0;
+        }
+        .businesses_heading{
+            font-size: 3rem;
+            font-weight: bold;
+
+            background-color: #fce199;
+            padding: 2rem;
+             margin: 0 -1rem 2rem;
+
+        }
+    
+        .content_box {
+            margin: 2rem 2rem;
+            max-width: 42%;
+            background-color: #fff;
+            padding: 3rem;
+        }
+        .content_box:hover{
+            box-shadow: 1rem 1rem 5rem rgb(221, 204, 204);
+        }
+    
+        .business_btn {
+            margin-top: 2rem;
+        }
+    
+        .list_text {
+            font-size: 1rem;
+            font-weight: bold;
+        }
+    
+        .business_img {
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+    
+        .contain{
+            flex-wrap: wrap;
+        }
+        .shop-img{
+            padding: 10px;
+            background-color: #E5F5FC;
+            margin: 10px;
+            width: 27% ;
+        }
+    }
+
+
+    .customer-videos {
+        background-color: #fbf9f9;
+        padding: 4rem 2rem;
+        .comment_vid {
+            height: 30rem;
+            background-color: rgba(0,0,0,.8);
+            border-radius: 3rem;
+            position: relative;
+            margin: 0 auto;
+    
+            ion-icon {
+                font-size: 8rem;
+                color: #fff;
+                position: absolute;
+                top: 40%;
+                left: 40%;
+            }
+        }
+    }
+    
+}

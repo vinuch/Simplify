@@ -2,6 +2,10 @@
 .carousel-control-prev {
     filter: invert(0%);
 }
+
+ul{
+    list-style: none;
+}
 #home {
 
     header {
@@ -21,7 +25,8 @@
             .header_content {
                 z-index: 2;
                 position: relative;
-                ;
+                margin-left: 1rem; 
+
                 .title {
                     color: $color-snowwhite;
                     font-size: 3rem;
@@ -30,6 +35,9 @@
 
                     .title_yellow {
                         color: $color-secondary;
+                    }
+                    .title_blue{
+                        color: $color-primary;
                     }
                 }
                 .btn-box a{
@@ -41,7 +49,7 @@
                 content: '';
                 position: absolute;
                 bottom: 0;
-                left: -10%;
+                left: -4%;
                 width: 120%;
                 height: 400px;
                 background: url("../assets/Rectangle 3 (1).png"); 
@@ -60,10 +68,11 @@
     display: flex;
     /* flex-wrap: wrap; */
     padding: 0;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x mandatory;
+    flex-wrap: wrap;
+
+    img{
+        width: 12rem;
+    }
 
     > div {
         flex: 1;
@@ -85,11 +94,11 @@
     }
 
     .features_img {
-        width: 80%;
+        width: 95%;
     }
 
     .features_btn{
-        padding: 1rem 3rem;
+        padding: 1rem 5rem;
         
     }
 }
@@ -99,7 +108,7 @@
 
 
     .businesses_overview{
-        padding: 0 5rem;
+        padding: 0;
     }
     .businesses_heading{
         font-size: 3rem;
@@ -109,12 +118,12 @@
 
     .content_box {
         margin: 2rem 2rem;
-        max-width: 100%;
+        max-width: 44%;
         background-color: $color-skyblue;
         padding: 3rem;
     }
     .content_box:hover{
-        box-shadow: 1rem 1rem 5rem grey;
+        box-shadow: 1rem 1rem 5rem rgb(221, 204, 204);
     }
 
     .business_btn {
@@ -122,12 +131,12 @@
     }
 
     .list_text {
-        font-size: 1.4rem;
+        font-size: 1rem;
         font-weight: bold;
     }
 
     .business_img {
-        width: 70%;
+        width: 100%;
         margin-bottom: 2rem;
     }
 
@@ -239,3 +248,4 @@
         font-size: 1.5rem;
     }
 }
+

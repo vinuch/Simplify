@@ -1,0 +1,116 @@
+#business_fashion {
+    header{
+        height: 100vh;
+        background-color: #EDF8FD;
+        padding: 2rem;
+    
+        .banner_img{
+            background: rgba(0, 158, 224, 0.15);
+            border-radius: 50%;
+            height: 24rem;
+
+            margin-top: 2rem;
+
+        }
+        .banner-text{
+            margin-top: 6rem;
+
+            .banner_heading {
+                font-size: 3rem;
+                font-weight: bold;
+                padding-bottom: 3rem;
+            }
+            .banner_text {
+                font-size: 1.5rem;
+            }
+            .btn-box a {
+                font-size: 1.2rem;
+                margin: 0;
+
+                &.btn-default.btn_outlined {
+                    color: #002A54 !important;
+                }
+            }
+        }
+    }
+    
+    .info{
+        padding: 0 3rem;
+          .info-row {
+            justify-content: space-around;
+            padding: 4rem 0;
+    
+             .info_box{
+                padding-top: 5rem;
+            }
+            img{
+                width: 28rem;
+            }
+            .info_heading{
+                font-size: 3rem;
+                font-weight: bold;
+                padding-bottom: 3rem;
+            }
+            .info_text{
+                font-size: 1.5rem;
+
+            }
+        }
+        .wave {
+            margin: 0 -3rem;
+            img {
+            height: 120px;
+            }
+        }
+    }
+}
+
+.customer-feedback {
+    margin: 3rem -3rem;
+    background: url("../../assets/restaurant\ style\ 1.png");
+    height: 40rem ;
+
+    .feedback-text {
+        background: #fff;
+        display: inline-block;
+        width: 40%;
+        position: absolute;
+        top: 124px;
+        right: 50px;
+        padding: 2rem;
+
+        span .arrow-icon{
+
+                position: absolute;
+                width: 3rem !important;
+                left: -29px;
+                top: 5rem;
+
+        }
+    }
+}
+
+.contact {
+    background: rgba(179, 226, 246, 0.15); 
+    margin: 2rem -3rem;
+    padding: 2rem;
+
+    > .row {
+        margin: 0;
+    }
+
+
+    .contact_img {
+        margin: 4rem 0;
+        text-align: center;
+        background-color: #D1E3EB;
+
+        img {
+            width: 20rem;
+        }
+    }
+    .contact_text {
+        
+        padding-top: 6rem;
+    }
+}

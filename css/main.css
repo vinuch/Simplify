@@ -6,7 +6,9 @@ html {
   font-size: 10px; }
 
 body {
-  font-family: "Roboto" Julius Sans One; }
+  font-family: quasimoda, sans-serif;
+  font-style: normal;
+  font-weight: 100; }
 
 p {
   color: #4d4d4d; }
@@ -37,7 +39,7 @@ p {
   border-radius: .5rem;
   border-style: none;
   color: #fff !important;
-  padding: 1rem 3rem;
+  padding: 1rem 5rem;
   font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase; }
@@ -95,7 +97,7 @@ footer {
   justify-content: space-between; }
   #minibar .minibar_contact-text {
     color: #dbd7d2;
-    font-size: 1rem; }
+    font-size: .8rem; }
     #minibar .minibar_contact-text .minibar_number {
       color: #fff;
       font-weight: bold; }
@@ -104,10 +106,19 @@ footer {
     margin-left: .5rem; }
     #minibar .minibar_nav .minibar_nav-list .minibar_nav-minilink a {
       color: #fff;
-      font-size: 1.3rem; }
+      font-size: 1rem; }
 
 .navbar {
-  padding: 1rem 2rem; }
+  padding: 1rem 2rem;
+  margin-top: 4rem; }
+  .navbar .free-trial {
+    margin: 0 2rem 0 auto;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em; }
+  .navbar .dropdown-menu {
+    left: auto; }
   .navbar .navbar-brand .brand_img {
     width: 11rem; }
   .navbar .navbar-nav .nav-item {
@@ -123,9 +134,163 @@ footer {
       padding: .5rem 1.5rem;
       border-radius: .5rem; }
 
+#businesses-page #businesses {
+  margin: 10rem 1rem;
+  background-color: #fbf9f9;
+  padding: 0 1rem 4rem; }
+  #businesses-page #businesses > .row {
+    margin: 0; }
+  #businesses-page #businesses .businesses_overview {
+    padding: 0; }
+  #businesses-page #businesses .businesses_heading {
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: #fce199;
+    padding: 2rem;
+    margin: 0 -1rem 2rem; }
+  #businesses-page #businesses .content_box {
+    margin: 2rem 2rem;
+    max-width: 42%;
+    background-color: #fff;
+    padding: 3rem; }
+  #businesses-page #businesses .content_box:hover {
+    box-shadow: 1rem 1rem 5rem #ddcccc; }
+  #businesses-page #businesses .business_btn {
+    margin-top: 2rem; }
+  #businesses-page #businesses .list_text {
+    font-size: 1rem;
+    font-weight: bold; }
+  #businesses-page #businesses .business_img {
+    width: 100%;
+    margin-bottom: 2rem; }
+  #businesses-page #businesses .contain {
+    flex-wrap: wrap; }
+  #businesses-page #businesses .shop-img {
+    padding: 10px;
+    background-color: #E5F5FC;
+    margin: 10px;
+    width: 27%; }
+
+#businesses-page .customer-videos {
+  background-color: #fbf9f9;
+  padding: 4rem 2rem; }
+  #businesses-page .customer-videos .comment_vid {
+    height: 30rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 3rem;
+    position: relative;
+    margin: 0 auto; }
+    #businesses-page .customer-videos .comment_vid ion-icon {
+      font-size: 8rem;
+      color: #fff;
+      position: absolute;
+      top: 40%;
+      left: 40%; }
+
+ul {
+  list-style: none; }
+
+.banner {
+  padding: 4rem 0 0;
+  text-align: center;
+  position: relative; }
+  .banner h1 {
+    font-weight: bold;
+    padding: 1rem 0;
+    font-size: 3.5rem; }
+  .banner > div {
+    margin-left: -30px; }
+    .banner > div .banner-text {
+      position: absolute;
+      display: inline-flex;
+      font-size: 1.3rem;
+      display: none; }
+    .banner > div .pos-text {
+      top: 65%;
+      left: 12%; }
+      .banner > div .pos-text hr {
+        width: 77px; }
+    .banner > div .desktop-text_1 {
+      top: 47%;
+      left: 23%; }
+    .banner > div .desktop-text_2 {
+      top: 39%;
+      right: 21%; }
+    .banner > div .desktop-text_3 {
+      top: 51%;
+      right: 18%; }
+    .banner > div .phone-text {
+      top: 59%;
+      right: 13%; }
+    .banner > div .hr-right {
+      border: 1px solid;
+      margin-left: 72px;
+      width: 120px;
+      margin: 5px 0 0 3px; }
+    .banner > div .hr-left {
+      border: 1px solid;
+      margin-left: 72px;
+      margin: 5px 0 0 3px;
+      width: 104px; }
+  .banner .pos {
+    width: 15rem;
+    margin-right: -25px;
+    margin-top: 12%; }
+  .banner .desktop {
+    width: 20rem; }
+  .banner .phone {
+    width: 5rem;
+    margin-top: 12%; }
+  .banner .yellow {
+    background: rgba(254, 190, 10, 0.7);
+    height: 130px;
+    width: 100%;
+    margin: -3rem 0 6rem; }
+
+#sidebar {
+  display: none;
+  position: sticky;
+  top: 42px;
+  height: 100%; }
+  #sidebar li {
+    padding: .7rem 0; }
+    #sidebar li a.sidebar-link {
+      display: inline-block;
+      color: #000;
+      padding: 7px;
+      font-size: 1.5rem;
+      border-bottom: 1px solid  #009DE0; }
+    #sidebar li .active {
+      border-left: 5px solid #009DE0; }
+
+.content .content-item_heading {
+  color: #009DE0;
+  padding: 1rem 0; }
+
+.content hr {
+  border: 0;
+  margin: 0 0 1rem;
+  border-top: 1px solid black; }
+
+.content li.col-6::before {
+  content: '';
+  position: absolute;
+  border-color: #C4C4C4;
+  border-style: solid;
+  border-width: 6px;
+  height: 1em;
+  top: 1.3em;
+  left: -0.5em;
+  margin-top: -1em;
+  /* transform: rotate(45deg); */
+  width: 0.5em; }
+
 .carousel-control-next,
 .carousel-control-prev {
   filter: invert(0%); }
+
+ul {
+  list-style: none; }
 
 #home header {
   padding: 0; }
@@ -141,7 +306,8 @@ footer {
     overflow: hidden; }
     #home header .banner .header_content {
       z-index: 2;
-      position: relative; }
+      position: relative;
+      margin-left: 1rem; }
       #home header .banner .header_content .title {
         color: #fff;
         font-size: 3rem;
@@ -149,13 +315,15 @@ footer {
         font-weight: bold; }
         #home header .banner .header_content .title .title_yellow {
           color: #FEBE0A; }
+        #home header .banner .header_content .title .title_blue {
+          color: #009DE0; }
       #home header .banner .header_content .btn-box a {
         width: 60%; }
     #home header .banner .wave::after {
       content: '';
       position: absolute;
       bottom: 0;
-      left: -10%;
+      left: -4%;
       width: 120%;
       height: 400px;
       background: url("../assets/Rectangle 3 (1).png");
@@ -166,10 +334,9 @@ footer {
   display: flex;
   /* flex-wrap: wrap; */
   padding: 0;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  scroll-snap-type: x mandatory; }
+  flex-wrap: wrap; }
+  #brands img {
+    width: 12rem; }
   #brands > div {
     flex: 1; }
 
@@ -182,32 +349,32 @@ footer {
   #features .features_text {
     font-size: 2rem; }
   #features .features_img {
-    width: 80%; }
+    width: 95%; }
   #features .features_btn {
-    padding: 1rem 3rem; }
+    padding: 1rem 5rem; }
 
 #businesses {
   margin: 10rem 2rem; }
   #businesses .businesses_overview {
-    padding: 0 5rem; }
+    padding: 0; }
   #businesses .businesses_heading {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 2rem; }
   #businesses .content_box {
     margin: 2rem 2rem;
-    max-width: 100%;
+    max-width: 44%;
     background-color: #e5f5fb;
     padding: 3rem; }
   #businesses .content_box:hover {
-    box-shadow: 1rem 1rem 5rem grey; }
+    box-shadow: 1rem 1rem 5rem #ddcccc; }
   #businesses .business_btn {
     margin-top: 2rem; }
   #businesses .list_text {
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: bold; }
   #businesses .business_img {
-    width: 70%;
+    width: 100%;
     margin-bottom: 2rem; }
   #businesses .contain {
     flex-wrap: wrap; }
@@ -279,19 +446,106 @@ footer {
   #help .help_btn {
     font-size: 1.5rem; }
 
+#business_fashion header {
+  height: 100vh;
+  background-color: #EDF8FD;
+  padding: 2rem; }
+  #business_fashion header .banner_img {
+    background: rgba(0, 158, 224, 0.15);
+    border-radius: 50%;
+    height: 24rem;
+    margin-top: 2rem; }
+  #business_fashion header .banner-text {
+    margin-top: 6rem; }
+    #business_fashion header .banner-text .banner_heading {
+      font-size: 3rem;
+      font-weight: bold;
+      padding-bottom: 3rem; }
+    #business_fashion header .banner-text .banner_text {
+      font-size: 1.5rem; }
+    #business_fashion header .banner-text .btn-box a {
+      font-size: 1.2rem;
+      margin: 0; }
+      #business_fashion header .banner-text .btn-box a.btn-default.btn_outlined {
+        color: #002A54 !important; }
+
+#business_fashion .info {
+  padding: 0 3rem; }
+  #business_fashion .info .info-row {
+    justify-content: space-around;
+    padding: 4rem 0; }
+    #business_fashion .info .info-row .info_box {
+      padding-top: 5rem; }
+    #business_fashion .info .info-row img {
+      width: 28rem; }
+    #business_fashion .info .info-row .info_heading {
+      font-size: 3rem;
+      font-weight: bold;
+      padding-bottom: 3rem; }
+    #business_fashion .info .info-row .info_text {
+      font-size: 1.5rem; }
+  #business_fashion .info .wave {
+    margin: 0 -3rem; }
+    #business_fashion .info .wave img {
+      height: 120px; }
+
+.customer-feedback {
+  margin: 3rem -3rem;
+  background: url("../../assets/restaurant style 1.png");
+  height: 40rem; }
+  .customer-feedback .feedback-text {
+    background: #fff;
+    display: inline-block;
+    width: 40%;
+    position: absolute;
+    top: 124px;
+    right: 50px;
+    padding: 2rem; }
+    .customer-feedback .feedback-text span .arrow-icon {
+      position: absolute;
+      width: 3rem !important;
+      left: -29px;
+      top: 5rem; }
+
+.contact {
+  background: rgba(179, 226, 246, 0.15);
+  margin: 2rem -3rem;
+  padding: 2rem; }
+  .contact > .row {
+    margin: 0; }
+  .contact .contact_img {
+    margin: 4rem 0;
+    text-align: center;
+    background-color: #D1E3EB; }
+    .contact .contact_img img {
+      width: 20rem; }
+  .contact .contact_text {
+    padding-top: 6rem; }
+
 @media only screen and (min-width: 500px) {
+  .navbar a.free-trial {
+    display: none; }
   header {
     padding: 0 2rem; }
     header .banner .header_content .btn-box a {
       width: auto !important; }
-  #businesses .content_box {
-    max-width: 22%; }
+  #home #businesses .content_box, #businesses-page #businesses .content_box {
+    max-width: 23%; }
   .carousel-control-next,
   .carousel-control-prev {
     filter: invert(100%); }
   #subscribe .subscribe_form .input-group {
     width: 50vw; }
+  .banner img.desktop {
+    width: 40rem; }
+  #sidebar {
+    display: block; }
   footer {
     text-align: left; }
     footer .company_logo {
-      margin: 0; } }
+      margin: 0; }
+  /*features page*/
+  .banner > div .banner-text {
+    display: inline-flex; }
+  .contact {
+    margin: 2rem 0; } }
